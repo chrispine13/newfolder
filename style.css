@@ -52,11 +52,11 @@ section{
          box-shadow:0 4px 6px rgba (0,0,0,0.1);
          transition:transform 0.3s ease-in-out;
          display:flex;
-         flex-direction:collum;
+         flex-direction:columm;
          align-items:center;
         }
 .project:hover{
-    transform:translate Y(-5px)
+    transform:translateY(-5px)
 }
 form{
     display:flex;
@@ -64,6 +64,7 @@ form{
     gap:15px;
     max-width:400px;
     margin:0 auto;
+    color:white;
 }
 input,textarea,button{
     width:100%;
